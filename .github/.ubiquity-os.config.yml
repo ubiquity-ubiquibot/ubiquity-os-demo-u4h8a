@@ -1,7 +1,7 @@
 plugins:
   ubiquity-os-marketplace/command-start-stop@fix/demo:
     skipBotEvents: false
-  ubiquity-os/command-demo@demo:
+  # ubiquity-os/command-demo@demo:
   ubiquity-os-marketplace/command-wallet@demo:
   ubiquity-os-marketplace/command-query@demo:
   ubiquity-os-marketplace/text-conversation-rewards@v1.7.9:

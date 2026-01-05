@@ -1,10 +1,10 @@
 plugins:
-  ubiquity-os-marketplace/command-start-stop@fix/demo:
+  Meniole/command-start-stop@development:
     skipBotEvents: false
-  # ubiquity-os/command-demo@demo:
-  ubiquity-os-marketplace/command-wallet@demo:
-  ubiquity-os-marketplace/command-query@demo:
-  ubiquity-os-marketplace/text-conversation-rewards@v1.7.9:
+  Meniole/command-demo@development:
+  Meniole/command-wallet@development:
+  Meniole/command-query@development:
+  Meniole/text-conversation-rewards@development:
     skipBotEvents: false
     with:
       incentives:
@@ -25,7 +25,7 @@ plugins:
             model: meta-llama/llama-4-maverick:free
           llmWebsiteModel:
             model: deepseek/deepseek-chat-v3-0324:free
-  ubiquity-os-marketplace/daemon-disqualifier@v1.0.3:
-  ubiquity-os-marketplace/text-vector-embeddings@v1.1.1:
+  Meniole/daemon-disqualifier@development:
+  Meniole/text-vector-embeddings@development:
     with:
       demoFlag: true
